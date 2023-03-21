@@ -5,7 +5,7 @@ import { environment } from '../../../environments/environment';
 // RxJs imports
 import { Observable, throwError } from 'rxjs';
 import { catchError, retry } from 'rxjs/operators';
-import { ApiResponse, Team } from '../interfaces/team.model';
+import { Team } from '../interfaces/team.model';
 
 export interface ResponseApi {
   data: [];

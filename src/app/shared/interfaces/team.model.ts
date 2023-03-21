@@ -7,6 +7,3 @@ export interface Team {
     full_name: string,
     name: string
 }
-
-export interface ApiResponse{
-}
